@@ -18,6 +18,7 @@ public class PessoaView extends RecyclerView.Adapter<PessoaView.PessoaViewHolder
 
     public PessoaView(List<Pessoa> p){
         dados = p;
+        
     }
 
     @NonNull
