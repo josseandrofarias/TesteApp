@@ -52,8 +52,8 @@ public class PessoaView extends RecyclerView.Adapter<PessoaView.PessoaViewHolder
         public PessoaViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            nome = itemView.findViewById(R.id.idNome);
-            idade = itemView.findViewById(R.id.idIdade);
+            nome = (TextView) itemView.findViewById(R.id.idNome);
+            idade = (TextView) itemView.findViewById(R.id.idIdade);
         }
     }
 }
