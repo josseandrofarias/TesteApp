@@ -41,9 +41,9 @@ public class Main extends AppCompatActivity {
         conexaoBD();
 //        acoes();
 
-        recyclerView = findViewById(R.id.listadados);
-        LinearLayoutManager linearLayout = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(linearLayout);
+        recyclerView = (RecyclerView) findViewById(R.id.listadados);
+        RecyclerView.LayoutManager mymanag = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(mymanag);
         PessoaView pessoaView = new PessoaView(lista());
         recyclerView.setAdapter(pessoaView);
 
