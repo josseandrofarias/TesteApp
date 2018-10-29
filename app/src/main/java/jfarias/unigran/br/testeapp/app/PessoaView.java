@@ -24,12 +24,12 @@ public class PessoaView extends RecyclerView.Adapter<PessoaView.PessoaViewHolder
 
     @NonNull
     @Override
-    public PessoaView.PessoaViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public PessoaView.PessoaViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
 
-//        LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
-//        View view = layoutInflater.inflate(R.layout.campos_lista, viewGroup, false);
-        View view = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.campos_lista, viewGroup, false);
+        LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
+        View view = layoutInflater.inflate(R.layout.campos_lista, viewGroup, false);
+//        View view = LayoutInflater.from(viewGroup.getContext())
+//                .inflate(R.layout.campos_lista, viewGroup, false);
 
         PessoaViewHolder pessoaViewHolder = new PessoaViewHolder(view);
         return  pessoaViewHolder;
