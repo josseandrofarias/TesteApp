@@ -65,7 +65,7 @@ public class Main extends AppCompatActivity {
             AlertDialog.Builder msg = new AlertDialog.Builder(this);
             msg.setTitle("Erro");
             msg.setMessage("Erro ao conectar ao Banco");
-            msg.setNeutralButton("Ok",null);
+            msg.setNeutralButton("Ok" ,null);
             msg.show();
         }
     }
