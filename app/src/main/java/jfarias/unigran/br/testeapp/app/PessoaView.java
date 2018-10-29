@@ -28,16 +28,13 @@ public class PessoaView extends RecyclerView.Adapter<PessoaView.PessoaViewHolder
 
         LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
         View view = layoutInflater.inflate(R.layout.campos_lista, viewGroup, false);
-//        View view = LayoutInflater.from(viewGroup.getContext())
-//                .inflate(R.layout.campos_lista, viewGroup, false);
-
         PessoaViewHolder pessoaViewHolder = new PessoaViewHolder(view);
         return  pessoaViewHolder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull PessoaView.PessoaViewHolder viewHolder, int i) {
-        if(dados!=null && dados.size() > 0 ) {
+        if((dados!=null) && (dados.size() > 0 )) {
             Pessoa p = dados.get(i);
             viewHolder.nome.setText(p.getNome());
             viewHolder.idade.setText(p.getIdade());
