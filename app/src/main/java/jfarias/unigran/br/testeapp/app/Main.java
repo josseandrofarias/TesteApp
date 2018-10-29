@@ -1,26 +1,21 @@
-package jfarias.unigran.br.testeapp;
+package jfarias.unigran.br.testeapp.app;
 
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.LinkedList;
 import java.util.List;
 
+import jfarias.unigran.br.testeapp.R;
 import jfarias.unigran.br.testeapp.entidade.Pessoa;
 import jfarias.unigran.br.testeapp.persistencia.Banco;
 

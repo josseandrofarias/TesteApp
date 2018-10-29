@@ -1,4 +1,4 @@
-package jfarias.unigran.br.testeapp;
+package jfarias.unigran.br.testeapp.app;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import java.sql.SQLException;
 
+import jfarias.unigran.br.testeapp.R;
 import jfarias.unigran.br.testeapp.entidade.Pessoa;
 import jfarias.unigran.br.testeapp.persistencia.Banco;
 

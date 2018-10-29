@@ -1,4 +1,4 @@
-package jfarias.unigran.br.testeapp;
+package jfarias.unigran.br.testeapp.app;
 
 
 import android.support.annotation.NonNull;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import jfarias.unigran.br.testeapp.R;
 import jfarias.unigran.br.testeapp.entidade.Pessoa;
 
 public class PessoaView extends RecyclerView.Adapter<PessoaView.PessoaViewHolder>{
