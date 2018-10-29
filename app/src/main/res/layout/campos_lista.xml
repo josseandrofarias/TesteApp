@@ -4,16 +4,17 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical">
 
-<TextView
-    android:id="@+id/idNome"
-    android:layout_width="match_parent"
-    android:layout_height="55dp"
-    android:text="Nome Principal"
-    android:textSize="18sp" />
+    <TextView
+        android:id="@+id/idNome"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Nome Principal"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/idIdade"
         android:layout_width="match_parent"
-        android:layout_height="41dp" />
+        android:layout_height="42dp"
+        android:text="Idade" />
 
 </LinearLayout>
